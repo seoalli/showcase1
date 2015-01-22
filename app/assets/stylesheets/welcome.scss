@@ -1,3 +1,18 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul.top_nav {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+} 
+.top_nav li {
+float: left;
+} 
+.top_nav a:link, a:visited {
+display: block; width: 120px;background-color:darkgoldenrod; color:beige;text-decoration: none;text-align:center;font-weight: bold;text-transform: uppercase;padding:5px
+}
+a:hover, a:active {
+background-color: green;
+}

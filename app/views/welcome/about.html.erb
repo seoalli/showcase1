@@ -1,6 +1,7 @@
 <head>
 <style>
-img {float: left;margin: 50px;}
+
+img.float_left {float: left;margin: 50px;}
 body {background-color:darkolivegreen;font-family: "Trebuchet MS", Helvetica, sans-serif;margin-left:80px;color:beige;}
 h1 {margin-left:10px; font-size:80px;color:beige;text-align: center}
 h2 {font-size:35px;color:beige}
@@ -9,17 +10,18 @@ p {font-size:20px;}
 ul {font-size:20px;}
 </style>
 </head> 
-
-  <<li><a href="default.asp">Home</a></li>
+<ul class="top_nav">
+  <li><a href="default.asp">Home</a></li>
   <li><a href="index.asp">Blog</a></li>
   <li><a href="about.asp">About</a></li>
   <li><a href="contact.asp">Contact</a></li>
 </ul>
+<div><%= image_tag 'blogheader.JPG'%></div>
 <br>
 <br>
 <br>
 <h1> This is Allison Fabella's Totally Awesome Bio Page</h1>
-<img src="http://2.bp.blogspot.com/-4Nmd0E1wm-A/ThwvgTy-yKI/AAAAAAAACe8/7LXLlDyZXIk/s1600/mrbean3.jpg"/>
+<img class="float_left"src="http://2.bp.blogspot.com/-4Nmd0E1wm-A/ThwvgTy-yKI/AAAAAAAACe8/7LXLlDyZXIk/s1600/mrbean3.jpg"/>
 <br>
 <h2>A Little Bit About Allison</h2>
 <h3>Here are a few things about Allison that you probably already knew or might have figured out:</h3>
@@ -44,7 +46,7 @@ Allison resides in Atlanta with her husband and son. She enjoys playing cello, g
 <br>
 
 <h3>One more thing you might not have known about Allison:</h3>
-<p>She writes really awesome blog posts.  You can check out her latest masterpiece on her  <a href="http://allisonfabella.com/welcome/index"> Index</a> page.
+<p>She writes really awesome blog posts.  You can check out her latest masterpiece on her <a href="http://allisonfabella.com/welcome/index"> Index</a> page.
 
 
 
